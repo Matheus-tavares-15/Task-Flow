@@ -38,7 +38,7 @@ Durante o desenvolvimento, foram resolvidos desafios críticos de arquitetura:
 
 1.  **Clonar o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/task-flow.git](https://github.com/seu-usuario/task-flow.git)
+    git clone https://github.com/Matheus-tavares-15/Task-Flow.git
     ```
 2.  **Instalar dependências:**
     ```bash
