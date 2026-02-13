@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../assets/CSS/root.css">
+    <script type="module" src="../../dist/app.js"></script>
+    <title>TO DO LIST</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+
+        <div class="top-side">
+            <div class="title-top">
+                <h1 class="title-style">TO DO LIST</h1>
+            </div>
+        </div>
+
+
+        <div class="content" id="content">
+            <h1>A FAZER HOJE</h1>
+            <div class="content" id="Content-Pending"></div>
+            <h1>VENCIDAS</h1>
+            <div class="content" id="content-vencido"></div>
+            <h1>FUTURAS</h1>
+            <div class="content" id="content-futuro"></div>
+        </div>
+
+
+
+        <template id="list">
+            <div class="task" id="task">
+                <div class="check">
+                    <input class="radios-class" type="checkbox" id="checkbox" />
+                </div>
+                <div class="ContentTask">
+
+                    <h3 class="h3-ContentTask"></h3>
+                    <p class="p-ContentTask"></p>
+                    <p id="date-task"></p>
+
+                </div>
+                <div class="reward-task" id="reward-task">
+                    <button class="delete" type="button" id="delete"><i class="fa-solid fa-trash"></i></button>
+                    <button class="edit" type="button" id="edit"><i class="fa-solid fa-pencil"></i></button>
+                </div>
+            </div>
+        </template>
+
+        <hr>
+
+        <div class="content-completed" id="content-completed">
+            <h1>CONCLUIDAS</h1>
+            <div class="content-completed" id="Content-completed"></div>
+        </div>
+
+
+
+        <div class="espaço">
+        </div>
+
+    <template id="nav-side-bar">
+        <nav class="nav-side-bar" id="nav-side-bar">
+            <div class="navbar">
+                <a href="#" id="newTask" class="active"><i class='bx bx-plus-medical'></i></a>
+            </div>
+        </nav>
+    </template>
+        
+        <div id="menu"></div>
+
+    </div>
+    
+    <div id="modal-edit" class="modal-overlay hidden">
+        <div class="modal-content">
+            <h2>Editar Tarefa</h2>
+            <form id="form-edit">
+                <input type="hidden" id="edit-id">
+                <label>Título:</label>
+                <input type="text" id="edit-title" class="input-style">
+
+                <label>Descrição:</label>
+                <textarea id="edit-description" class="input-style" rows="4" cols="50"></textarea>
+                
+                <label>Data:</label>
+                <input type="date" id="edit-date" class="input-style">
+
+                <div class="modal-buttons">
+                    <button type="button" id="btn-cancel" class="btn-secondary">Cancelar</button>
+                    <button type="submit" class="btn-primary">Salvar Alterações</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="modal-add" class="modal-overlay hidden">
+        <div class="modal-content">
+            <h2>Add Tarefa</h2>
+            <form id="form-add">
+                <input type="hidden" id="edit-id">
+                <label>Título:</label>
+                <input type="text" id="titulo" class="input-style" required>
+
+                <label>Descrição:</label>
+                <textarea id="description" class="input-style" rows="4" cols="50" required></textarea>
+
+                <label>Data:</label>
+                <input type="date" id="date" class="input-style" required>
+
+                <div class="modal-buttons">
+                    <button type="button" id="btn-cancel-add" class="btn-secondary">Cancelar</button>
+                    <button type="submit" class="btn-primary">Add</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

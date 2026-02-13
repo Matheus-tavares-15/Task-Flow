@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ab7eeae5-1262-4142-be64-04df08b5a3a8",
+    "title": "Criar um to do List",
+    "description": "Criar um todo par atreinar programação",
+    "status": "completed",
+    "date": "2026-02-13"
+  },
+  {
+    "id": "3bb1efbc-17a9-4171-865b-7e781b7af29b",
+    "title": "curso Javascript",
+    "description": "JavaScript moderno desde o básico até o nível especialista! O recurso indispensável de JavaScript em 2026.",
+    "status": "pending",
+    "date": "2026-12-31"
+  },
+  {
+    "id": "13826d23-9a1f-4229-b7b7-827bad694bb6",
+    "title": "Curso UX/UI",
+    "description": "Aprenda sobre os princípios de experiência do usuário e design de interface do usuário, como regras heurísticas e melhores práticas.\n",
+    "status": "pending",
+    "date": "2026-02-14"
+  },
+  {
+    "id": "f15d584c-f41e-4442-93a3-a9a6dee43571",
+    "title": "html+css3",
+    "description": "Aprenda HTML5, CSS3 e web design modernos criando um site incrível para o seu portfólio! Inclui flexbox e CSS Grid.",
+    "status": "pending",
+    "date": "2026-12-31"
+  },
+  {
+    "id": "65cd46f8-b80f-4d95-a159-134952e1b847",
+    "title": "curso CSS",
+    "description": "O curso de CSS mais avançado e moderno da internet: domine flexbox, CSS Grid, design responsivo e muito mais.",
+    "status": "pending",
+    "date": "2026-12-31"
+  },
+  {
+    "id": "d61f1260-b2f2-4b8f-b0c7-1d2f17e52074",
+    "title": "Curso de Angula",
+    "description": "Master Angular (formerly \"Angular 2\") and build awesome, reactive web apps with the successor of Angular.js\n\n[] Modulo 1\n[] Modulo2\n[] Modulo3\n[] Modulo4\n[] Modulo5\n[] Modulo6\n[] Modulo7\n[] Modulo8\n[] Modulo9\n[] Modulo10\n[] Modulo11\n[] Modulo12\n[] Modulo13\n[] Modulo14\n[] Modulo15\n[] Modulo16\n[] Modulo17\n[] Modulo18\n[] Modulo19\n[] Modulo20\n[] Modulo21\n[] Modulo22\n[] Modulo23\n[] Modulo24\n[] Modulo25\n[] Modulo26\n[] Modulo27\n[] Modulo28\n[] Modulo29\n[] Modulo30\n[] Modulo31\n[] Modulo32\n[] Modulo33\n[] Modulo34\n[] Modulo35\n[] Modulo36\n[] Modulo37\n[] Modulo38\n[] Modulo39\n[] Modulo40\n[] Modulo41\n[] Modulo42\n[] Modulo43\n[] Modulo44\n[] Modulo45\n[] Modulo46\n\n",
+    "status": "pending",
+    "date": "2026-03-06"
+  }
+]
